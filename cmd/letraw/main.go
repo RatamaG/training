@@ -17,17 +17,20 @@ func main() {
 	if err != nil {
 		fmt.Println("ingresa un numero, letras no son compatibles")
 	}
-	for i := 0; i < dim; i++ {
+	for i := 0; i <= dim-1; i++ {
 		fmt.Print("*")
-		for j :=1; j <= i; j++ {
+		for j :=1; j <= dim-i; j++ {
 			fmt.Print(" ")
 		}
 		fmt.Print("*")
-		for j := 1; j <= dim-i; j++ {
+		for j := 1; j <= i; j++ {
+			fmt.Print("  ")
+		}
+		fmt.Print("*")
+		for j := 0; j < dim-i; j++ {
 			fmt.Print(" ")
 		}
 		fmt.Print("*")
 		fmt.Println()
 	}
-
 }
