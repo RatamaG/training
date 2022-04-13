@@ -8,43 +8,51 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Ingresa un numero ")
+		fmt.Println("enter a number ")
 
 		return
 	}
+
 	name := os.Args[1]
 	dim, err := strconv.Atoi(name)
 	if err != nil {
-		fmt.Println("ingresa un numero, letras no son compatibles")
+		fmt.Println("enter a number, letters are not allowed")
 	}
+
 	a := "*"
-	//Primer modulo
+	//First module
 	for i := 0; i < dim; i++ {
 		fmt.Print("*")
 	}
+
 	fmt.Println()
-	//Segundo modulo
-	//Posicion
+
+	//Second module
 	for i := 0; i < dim/2-2; i++ {
 		fmt.Print(a)
 		//dim
 		for i := 0; i < dim-2; i++ {
 			fmt.Print(" ")
 		}
+
 		fmt.Printf(a + "\n")
 	}
+
 	for i := 0; i < dim; i++ {
 		fmt.Print(a)
 	}
-	//Tercermodulo
+
+	//Third module
 	fmt.Println()
 	for i := 0; i < dim/2; i++ {
 		fmt.Print(a)
 		for i := 0; i < dim-2; i++ {
 			fmt.Print(" ")
 		}
+
 		fmt.Printf(a + "\n")
 	}
+
 	if dim%2 == 0 {
 	} else {
 		for i := 0; i < dim-dim+1; i++ {
@@ -52,6 +60,7 @@ func main() {
 			for i := 0; i < dim-2; i++ {
 				fmt.Print(" ")
 			}
+			
 			fmt.Printf(a + "\n")
 		}
 	}
