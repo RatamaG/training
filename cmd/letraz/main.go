@@ -18,10 +18,13 @@ func main() {
 	if err != nil {
 		fmt.Println("enter a number, letters are not allowed")
 	}
+
 	for i := 0; i < dim; i++ {
 		fmt.Print("*")
 	}
+
 	fmt.Println()
+	
 	for i := 0; i < dim-2; i++ {
 
 		for j :=1; j <= dim-i-2; j++ {
