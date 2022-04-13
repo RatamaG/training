@@ -29,7 +29,7 @@ func main() {
 		fmt.Print("*")
 		fmt.Println()
 	}
-	//segnda parte
+	//segunda parte
 	for i := 0; i <= dim/2-1; i++ {
 		for j := 1; j <= dim-i; j++ {
 			fmt.Print(" ")
