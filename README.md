@@ -1,4 +1,4 @@
-# Training Repo
+# Training Repo 
 
 This repository was created to upload and share exercises of my training.
 letter C: the program must receive as argument a number that will be the size of our letter printed with *, This exercise is made in 3 modules, in the first number we print the first line of asterisks of the letter c, using a for cycle to make the iteration of the * that will be equal to the number entered - 1, we use as condition -1 to subtract a * of more that comes out when we print the vertical line in * of the letter, to print this result we use fmt. Print to print the result in a horizontal line without making the line break.
