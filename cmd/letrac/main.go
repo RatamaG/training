@@ -19,19 +19,19 @@ func main() {
 	if err != nil {
 			fmt.Println("enter a number, letters are not allowed")
 		} 
-		//First modulo
+		
 		for i := 0; i < dim-1; i++ {
-			fmt.Printf("*")
+			fmt.Print("*")
 		}
-		//Middle module
+	
 	
  		for i := 0; i < dim-1; i++ {
 			fmt.Println("*")
 		}
-		//Last module
+	
 		
 		for i := 0; i < dim; i++ {
-			fmt.Printf("*")
+			fmt.Print("*")
 		}
 		
 		fmt.Println("")

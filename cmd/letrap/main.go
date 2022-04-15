@@ -19,31 +19,46 @@ func main() {
 		fmt.Println("enter a number, letters are not allowed")
 	}
 
-	for i := 0; i < dim-1; i++ {
-		fmt.Print("*")
-	}
-
-	for i := 0; i < dim/2; i++ {
-		fmt.Println("*")
-	}
-
 	for i := 0; i < dim; i++ {
 		fmt.Print("*")
 	}
-	
+
 	fmt.Println()
 
 	for i := 0; i < dim/2-1; i++ {
-		
-		for i := 0; i < dim-1; i++ {
+
+		fmt.Print("*")
+
+		for i := 0; i < dim-2; i++ {
+			
 			fmt.Print(" ")
 		}
-		fmt.Print("*")
-		fmt.Println()
+
+		fmt.Print("*" + "\n")
 	}
 
 	for i := 0; i < dim; i++ {
 		fmt.Print("*")
 	}
+	if dim%2 == 0 {
 
+		fmt.Println()
+
+		for i := 0; i < dim/2-1; i++ {
+
+			fmt.Println("*")
+
+		}
+
+		fmt.Println("")
+	} else {
+
+		fmt.Println()
+
+		for i := 0; i < dim/2; i++ {
+
+			fmt.Println("*")
+
+		}
+	}
 }

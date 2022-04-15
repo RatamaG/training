@@ -27,23 +27,26 @@ func main() {
 		fmt.Println("*")
 	}
 
+	for i := 0; i < dim-1; i++ {
+		fmt.Print("*")
+	}
+
+	if dim%2 == 0 {
+		for i := 0; i < dim/2-1; i++ {
+			fmt.Println("*")
+		}
+	} else {
+
+		for i := 0; i < dim/2; i++ {
+			fmt.Println("*")
+
+		}
+	}
+
 	for i := 0; i < dim; i++ {
 		fmt.Print("*")
 	}
 	
-	fmt.Println()
-
-	for i := 0; i < dim/2-1; i++ {
-		
-		for i := 0; i < dim-1; i++ {
-			fmt.Print(" ")
-		}
-		fmt.Print("*")
-		fmt.Println()
-	}
-
-	for i := 0; i < dim; i++ {
-		fmt.Print("*")
-	}
+	fmt.Println("")
 
 }
