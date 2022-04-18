@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("enter a number")
+		fmt.Println("enter a number ")
 
 		return
 	}
@@ -20,30 +20,14 @@ func main() {
 	}
 
 	for i := 0; i < dim-1; i++ {
-		fmt.Print("*")
-	}
 
-	for i := 0; i < dim/2; i++ {
 		fmt.Println("*")
+
 	}
 
 	for i := 0; i < dim; i++ {
-		fmt.Print("*")
-	}
-	
-	fmt.Println()
 
-	for i := 0; i < dim/2-1; i++ {
-		
-		for i := 0; i < dim-1; i++ {
-			fmt.Print(" ")
-		}
 		fmt.Print("*")
-		fmt.Println()
-	}
 
-	for i := 0; i < dim; i++ {
-		fmt.Print("*")
 	}
-
 }
