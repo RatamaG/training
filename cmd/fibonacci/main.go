@@ -19,17 +19,21 @@ func main() {
 		fmt.Println("enter a number, letters are not allowed")
 	}
 
-	ant1 := 0
+	numa := 0
 
-	ant2 := 1
+	numb := 1
+
+	cont := 0
 
 	for i := 0; i <= num-1; i++ {
 
-		ant1 += ant2
+		cont = numa + numb 
 
-		ant2 = ant1-ant2
+		fmt.Print(" ",cont)
 
-		fmt.Print( ant2 , " . ")
+		numa = numb
+		
+		numb = cont
 	}
 
 }
