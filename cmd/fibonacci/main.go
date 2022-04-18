@@ -25,15 +25,15 @@ func main() {
 
 	cont := 0
 
-	for i := 0; i <= num-1; i++ {
+	for i := 1; i <= num; i++ {
 
 		cont = numa + numb 
-
-		fmt.Print(" ",cont)
 
 		numa = numb
 		
 		numb = cont
 	}
+
+	fmt.Println("Fibonacci for number",num,"is",numb-numa)
 
 }
