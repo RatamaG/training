@@ -11,5 +11,8 @@ I feel that this exercise has helped me to implement and improve some concepts a
 I hope to finish this training with clear concepts so that I can continue learning new things every day. 
 I feel that I advance discreetly since there are topics that I assimilate faster than others, even so I try to strive a little more every day to change this discreet progress and do it faster.
 
+Fibonacci: is a program to use the fibonacci sequence, I did it taking into account the two previous numbers, making the formula, the value of the first predecessor is simple, because it is the number of the previous result, but for the number before the predecessor use num2 = num1-num2.
+num2 is updated every iteration and takes the value.
+
 
 Letters: is a code that prints the letter of the size that the user enters as an argument.
