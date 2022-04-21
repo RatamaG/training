@@ -13,3 +13,4 @@ I hope to finish this training with clear concepts so that I can continue learni
 I feel that I advance discreetly since there are topics that I assimilate faster than others, even so I try to strive a little more every day to change this discreet progress and do it faster.
 
 
+Letters: is a code that prints the letter of the size that the user enters as an argument.
