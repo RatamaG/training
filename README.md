@@ -15,3 +15,4 @@ Fibonacci: is a program to use the fibonacci sequence, I did it taking into acco
 num2 is updated every iteration and takes the value.
 
 
+Letters: is a code that prints the letter of the size that the user enters as an argument.
